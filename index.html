@@ -10,13 +10,13 @@
   <title>Евклид. Проектные системы</title>
 </head>
 <body>
-<header class="header">
+<header class="header" id="header">
   <div class="container">
     <div class="container__wrapper container__wrapper--heighting">
       <a href="" class="burger">
         <img src="/img/svg/header__burger.svg" alt="menu">
       </a>
-      <a href="" class="logo-header logo-wrapper">
+      <a href="#header" class="header__logo">
         <img src="/img/svg/header__logo_big.svg" alt="Logo" class="logo">
       </a>
       <nav class="nav">
@@ -28,26 +28,29 @@
             <a href="#we-work" class="nav__link">Проекты</a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link">Этапы</a>
+            <a href="#header" class="nav__link">Этапы</a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link">Отзывы</a>
+            <a href="#header" class="nav__link">Отзывы</a>
           </li>
           <li class="nav__item">
             <a href="#footer" class="nav__link">Контакты</a>
           </li>
         </ul>
       </nav>
-      <button class="search"></button>
+      <button class="search">
+        <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333"/>
+          <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="#333333" stroke-width="2"/>
+        </svg> -->
+      </button>
     </div>
   </div>
 </header>
 <main>
   <section class="container">
     <div class="swiper">
-      <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
-        <!-- Slides -->
         <div class="swiper-slide">
           <img src="/img/png/title__slider_1.png" alt="" class="hero__image">
           <h1 class="title">Проектные решения любой сложности</h1>
@@ -67,14 +70,15 @@
           <button class="button hero__button">Заказать расчет</button>
         </div>
       </div>
-      <!-- If we need pagination -->
       <div class="swiper-pagination"></div>
     </div>
   </section>
   <section class="container container--drop">
     <div class="about-top">
       <h2 class="subtitle" id="about">О нас</h2>
-      <p class="text text--short">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p> 
+      <p class="text text--short">
+        Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.
+      </p> 
     </div>
     <div class="about-bottom">
       <div class="about-left">
@@ -216,7 +220,7 @@
 <footer class="footer container--drop">
   <div class="container container__wrapper container__wrapper--footer">
     <div class="footer__column">
-      <a href="" class="logo-footer logo-wrapper">
+      <a href="#header" class="footer__logo">
         <img src="/img/svg/footer__logo.svg" alt="Logo" class="logo">
       </a>
       <ul class="footer__menu">
