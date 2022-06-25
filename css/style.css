@@ -492,9 +492,9 @@ a:focus, button:focus {
   width: 233px;
 }
 
-.social-list_icon:hover path{
+/* .social-list_icon:hover svg{
   fill: #FF9900;
-}
+} */
 
 .form{
   display: flex;
