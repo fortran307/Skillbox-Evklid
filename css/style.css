@@ -492,6 +492,10 @@ a:focus, button:focus {
   width: 233px;
 }
 
+.social-list_icon:hover path{
+  fill: #FF9900;
+}
+
 .form{
   display: flex;
   flex-direction: column;
