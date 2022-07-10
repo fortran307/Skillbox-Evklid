@@ -40,7 +40,7 @@ a {
 
 a:focus, button:focus {
   outline: 2px solid var(--clr-orange);
-  transition: 0.2s;
+  transition: 0.2s ease-in-out;
 }
 
 .container{
@@ -130,7 +130,7 @@ a:focus, button:focus {
 
 .nav__link:hover {
   border-bottom: 2px solid var(--clr-orange);
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
 .search {
